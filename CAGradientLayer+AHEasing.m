@@ -39,8 +39,6 @@ static NSString * const kLocationsKey = @"locations";
     {
         [cgColors addObject:(id)color.CGColor];
     }
-#warning Remove log
-    DLog(@"\n\nCGColors: %@", cgColors);
     [self setColors:cgColors];
     [self setLocations:colorsAndLocations[kLocationsKey]];
 }
