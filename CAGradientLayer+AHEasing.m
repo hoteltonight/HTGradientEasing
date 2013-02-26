@@ -34,9 +34,11 @@ static NSString * const kLocationsKey = @"locations";
                                                                                      locations:locations
                                                                                 easingFunction:easingFunction
                                                                      keyframesBetweenLocations:keyframesBetweenLocations];
-    NSArray *cgColors = [colorsAndLocations[kColorsKey] mapObjectsUsingBlock:^id(UIColor *color, NSUInteger idx) {
-        return (id)color.CGColor;
-    }];
+    NSMutableArray *cgColors = [NSMutableArray arrayWithCapacity:[colorsAndLocations[kColorsKey] count]];
+    for (UIColor *color in colorsAndLocations[kColorsKey])
+    {
+        [cgColors addObject:(id)color.CGColor];
+    }
 #warning Remove log
     DLog(@"\n\nCGColors: %@", cgColors);
     [self setColors:cgColors];

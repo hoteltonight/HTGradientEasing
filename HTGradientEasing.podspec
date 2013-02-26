@@ -1,6 +1,5 @@
 Pod::Spec.new do |s|
   s.name         = "HTGradientEasing"
-  s.dependency   = 'AHEasing'
   s.version      = "0.0.2"
   s.platform     = :ios
   s.summary      = "Apply a variety of easing functions from the AHEasing project to CAGradientLayers. "
@@ -12,5 +11,7 @@ Pod::Spec.new do |s|
   s.source_files = '*.{h,m}'
   s.frameworks   = 'QuartzCore', 'CoreGraphics'
   s.requires_arc = true
+  s.dependency 'AHEasing'
+  s.dependency 'UIColor-CrossFade'
 end
 
