@@ -39,6 +39,10 @@ Example:
                          locations:@[@0, @1]
                     easingFunction:QuadraticEaseInOut
          keyframesBetweenLocations:6
+         
+## Demo project in action
+
+<img src="https://raw.github.com/hoteltonight/HTGradientEasing/master/HTGradientEasingSS1.png" alt="HotelTonight" title="HotelTonight" style="display:block; margin: 10px auto 30px auto;">
 
 ## Use it? Love/hate it?
 
