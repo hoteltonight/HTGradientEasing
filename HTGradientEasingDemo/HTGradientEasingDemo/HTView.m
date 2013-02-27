@@ -50,8 +50,8 @@ static CGFloat const kGradientHeight = 80;
                                 locations:@[@0, @1]
                            easingFunction:easingFunction
                 keyframesBetweenLocations:32];
-    gradientLayer.startPoint = CGPointMake(0, 0.5);
-    gradientLayer.endPoint = CGPointMake(1, 0.5);
+    gradientLayer.startPoint = CGPointMake(0.2, 0.5);
+    gradientLayer.endPoint = CGPointMake(0.8, 0.5);
     [self.layer addSublayer:gradientLayer];
     [self.gradientLayers addObject:gradientLayer];
     
