@@ -26,20 +26,23 @@ If you do not use cocoapods, you must install dependencies AHEasing and UIColor+
 
 A category on CAGradientLayer is provided with the interface:
 
-    - (void)setEasedGradientColors:(NSArray *)colors
-                         locations:(NSArray *)locations
-                    easingFunction:(AHEasingFunction)easingFunction
-         keyframesBetweenLocations:(NSUInteger)keyframesBetweenLocations;
+```objc
+- (void)setEasedGradientColors:(NSArray *)colors
+                     locations:(NSArray *)locations
+                easingFunction:(AHEasingFunction)easingFunction
+     keyframesBetweenLocations:(NSUInteger)keyframesBetweenLocations;
+```
 
 Colors must be UIColors, and locations NSNumbers in [0,1]. A great variety of easing functions may be passed (quintic/sine/quadratic ease in/out/inout etc)
 
 Example:
 
-    - (void)setEasedGradientColors:@[[UIColor redColor], [UIColor blueColor]]
-                         locations:@[@0, @1]
-                    easingFunction:QuadraticEaseInOut
-         keyframesBetweenLocations:6
-         
+```objc
+[gradientLayer setEasedGradientColors:@[[UIColor redColor], [UIColor blueColor]]
+                            locations:@[@0, @1]
+                       easingFunction:QuadraticEaseInOut
+            keyframesBetweenLocations:6];
+```            
 ## Demo project in action
 
 <img src="https://raw.github.com/hoteltonight/HTGradientEasing/master/HTGradientEasingSS1.png" alt="HotelTonight" title="HotelTonight" style="display:block; margin: 10px auto 30px auto;">
