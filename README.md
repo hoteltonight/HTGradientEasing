@@ -31,4 +31,10 @@ Colors must be UIColors, and locations NSNumbers in [0,1]. A great variety of ea
 
 ## Use it? Love/hate it?
 
-Tweet me @jakejennings, and check out HotelTonight's engineering blog: http://engineering.hoteltonight.com
+Tweet the author @jakejennings, and check out HotelTonight's engineering blog: http://engineering.hoteltonight.com
+
+Also, check out HotelTonight's other iOS open source:
+* https://github.com/hoteltonight/HTAutocompleteTextField
+* https://github.com/hoteltonight/HTGradientEasing
+* https://github.com/hoteltonight/HTStateAwareRasterImageView
+* https://github.com/hoteltonight/HTDelegateProxy
