@@ -1,3 +1,4 @@
+<img src="https://raw.github.com/hoteltonight/HTDelegateProxy/master/ht-logo-black.png" alt="HotelTonight" title="HotelTonight" style="display:block; margin: 10px auto 30px auto;">
 HTGradientEasing
 ================
 
@@ -25,8 +26,8 @@ A category on CAGradientLayer is provided with the interface:
                          locations:(NSArray *)locations
                     easingFunction:(AHEasingFunction)easingFunction
          keyframesBetweenLocations:(NSUInteger)keyframesBetweenLocations;
-     
-This should be familiar, just adding the easing function and keyframe count to the normal colors and locations properties.  Note: UIColors please! (Note to self: I should put that in the header.)
+
+Colors must be UIColors, and locations NSNumbers in [0,1]. A great variety of easing functions may be passed (quintic/sine/quadratic ease in/out/inout etc)
 
 ## Use it? Love/hate it?
 
