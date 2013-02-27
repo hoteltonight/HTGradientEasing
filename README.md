@@ -6,9 +6,13 @@ HTGradientEasing
 
 Easily add smooth easing to CAGradientLayers.  A combination of the exhaustive collection of easing functions provided by the AHEasing project and a color mixer, UIColor+CrossFade. 
 
-https://github.com/warrenm/AHEasing
+There's this optical illusion called the Mach Bands effect:
+* http://perceptualstuff.org/machbandsbasic.html
 
-https://github.com/cbpowell/UIColor-CrossFade
+The Mach Bands effect exaggerates our perception of the hard lines at the ends of linear gradients.  Eased gradients tend to look better.
+
+* https://github.com/warrenm/AHEasing
+* https://github.com/cbpowell/UIColor-CrossFade
 
 ##Installation
 
@@ -28,6 +32,13 @@ A category on CAGradientLayer is provided with the interface:
          keyframesBetweenLocations:(NSUInteger)keyframesBetweenLocations;
 
 Colors must be UIColors, and locations NSNumbers in [0,1]. A great variety of easing functions may be passed (quintic/sine/quadratic ease in/out/inout etc)
+
+Example:
+
+    - (void)setEasedGradientColors:@[[UIColor redColor], [UIColor blueColor]]
+                         locations:@[@0, @1]
+                    easingFunction:QuadraticEaseInOut
+         keyframesBetweenLocations:6
 
 ## Use it? Love/hate it?
 
