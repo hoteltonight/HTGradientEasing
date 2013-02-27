@@ -1,0 +1,17 @@
+
+PODS:
+- AHEasing (1.0)
+- HTGradientEasing (0.0.4):
+  - AHEasing
+  - UIColor-CrossFade
+- UIColor-CrossFade (0.0.1)
+
+DEPENDENCIES:
+- HTGradientEasing
+
+SPEC CHECKSUMS:
+  AHEasing: 6f0a6e894ad0ce2d49013bf4123b313de91474fd
+  HTGradientEasing: b6e2ea3c1e657206c6cb596a41659cb2bd181ae4
+  UIColor-CrossFade: afd26f1e60caa96184b0e894736b38039507c46e
+
+COCOAPODS: 0.16.4

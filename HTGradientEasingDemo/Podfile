@@ -1,0 +1,5 @@
+platform :ios, :deployment_target => '4.3'
+
+xcodeproj 'HTGradientEasingDemo'
+
+pod 'HTGradientEasing'

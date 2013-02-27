@@ -1,0 +1,7 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC -framework CoreGraphics -framework QuartzCore
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/AHEasing" "${PODS_ROOT}/BuildHeaders/HTGradientEasing" "${PODS_ROOT}/BuildHeaders/UIColor-CrossFade"
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AHEasing" "${PODS_ROOT}/Headers/HTGradientEasing" "${PODS_ROOT}/Headers/UIColor-CrossFade"
+PODS_ROOT = ${SRCROOT}/Pods
