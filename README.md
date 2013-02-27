@@ -5,6 +5,10 @@ HTGradientEasing
 
 Easily add smooth easing to CAGradientLayers.  A combination of the exhaustive collection of easing functions provided by the AHEasing project and a color mixer, UIColor+CrossFade. 
 
+https://github.com/warrenm/AHEasing
+
+https://github.com/cbpowell/UIColor-CrossFade
+
 ##Installation
 
 Include the following line in your podfile:
@@ -24,3 +28,6 @@ A category on CAGradientLayer is provided with the interface:
      
 This should be familiar, just adding the easing function and keyframe count to the normal colors and locations properties.  Note: UIColors please! (Note to self: I should put that in the header.)
 
+## Use it? Love/hate it?
+
+Tweet me @jakejennings, and check out HotelTonight's engineering blog: http://engineering.hoteltonight.com
