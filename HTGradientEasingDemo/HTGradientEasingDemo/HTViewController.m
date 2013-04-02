@@ -7,11 +7,11 @@
 //
 
 #import "HTViewController.h"
-#import "HTView.h"
+#import "HTGradientListScrollView.h"
 
 @interface HTViewController ()
 
-@property (nonatomic, readonly) HTView *htView;
+@property (nonatomic, readonly) HTGradientListScrollView *htView;
 
 @end
 
@@ -20,12 +20,12 @@
 
 - (void)loadView
 {
-    self.view = [[HTView alloc] init];
+    self.view = [[HTGradientListScrollView alloc] init];
 }
 
-- (HTView *)htView
+- (HTGradientListScrollView *)htView
 {
-    return (HTView *)self.view;
+    return (HTGradientListScrollView *)self.view;
 }
 
 - (void)viewDidLoad
