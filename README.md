@@ -56,3 +56,4 @@ Also, check out HotelTonight's other iOS open source:
 * https://github.com/hoteltonight/HTGradientEasing
 * https://github.com/hoteltonight/HTStateAwareRasterImageView
 * https://github.com/hoteltonight/HTDelegateProxy
+* https://github.com/hoteltonight/HTCoreImage
