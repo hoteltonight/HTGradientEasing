@@ -2,7 +2,7 @@
 HTGradientEasing
 ================
 
-##Overview
+## Overview
 
 Easily add smooth easing to CAGradientLayers.  A combination of the exhaustive collection of easing functions provided by the AHEasing project and a color mixer, UIColor+CrossFade. 
 
@@ -14,7 +14,7 @@ The Mach Bands effect exaggerates our perception of the hard lines at the ends o
 * https://github.com/warrenm/AHEasing
 * https://github.com/cbpowell/UIColor-CrossFade
 
-##Installation
+## Installation
 
 Include the following line in your podfile:
 
